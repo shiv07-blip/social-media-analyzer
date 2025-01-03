@@ -1,0 +1,59 @@
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg-info/
+*.egg
+*.env
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.idea/
+.vscode/
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite3
+
+# Streamlit-specific
+.streamlit/
+.config/
+.secrets.toml
+
+# Logs and debug files
+*.log
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node.js (if used in your project)
+node_modules/
+npm-debug.log*
+
+# Other tools
+*.lock
+yarn.lock
+pipfile.lock
